@@ -1,8 +1,16 @@
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import ProfileImage from "../../public/profile.jpeg";
 import React from "react";
+
+//Images
+import ProfileImage from "../../public/profile.jpeg";
+
+//Project Images
+import RecipeImage from "../../public/projects-images/recipe-app.jpeg";
+import InventoryImage from "../../public/projects-images/inventor-management-system-api.jpeg";
+import RestoImage from "../../public/projects-images/resto.png";
+import AISummarizerImage from "../../public/projects-images/dh-ai-summarizer.jpeg";
 
 export const links = [
   { name: "Home" },
@@ -40,26 +48,62 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  //Add latest projects here…
   {
-    title: "CorpComment",
+    title: "Recipe App (MERN Stack)",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "corpcommentImg",
+      "I developed a dynamic MERN stack web application featuring a sleek user interface powered by React and MUI. " +
+      "The application leverages Redux RTK Query for efficient data fetching from APIs, " +
+      "uses MongoDB as the database, and implements JWT for secure user authentication. " +
+      "Users can easily register or log in to their accounts, add their favorite recipes, and view them at their convenience. " +
+      "This project showcases my skills in modern web development, state management, and secure user handling.",
+    tags: [
+      "React",
+      "MongoDB",
+      "React MUI",
+      "NodeJs",
+      "expressjs",
+      "RTK Query",
+      "JWT",
+    ],
+    imageUrl: RecipeImage,
   },
   {
-    title: "rmtDev",
+    title: "Inventory Management System (ASP.NET core 7 and Angular)",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "rmtdevImg",
+      " I developed an Inventory Management System utilizing Angular 17 for the frontend and" +
+      " ASP.NET Core Web API for the backend. Angular Material was employed as the UI library," +
+      " with Angular services facilitating data retrieval from the backend API. The backend was" +
+      " structured using Clean Architecture principles, incorporating CQRS, and PostgreSQL" +
+      " served as the database. Version control was managed through GitHub.",
+    tags: [
+      "ASP.NET core web API",
+      "Angular",
+      "Postgres",
+      "CQRS",
+      "Clean Architecture",
+      "DDD",
+      "Generic repository Pattern",
+    ],
+    imageUrl: InventoryImage,
   },
   {
-    title: "Word Analytics",
+    title: "Resto (Restaurant Management System - MERN Stack)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "wordanalyticsImg",
+      "The system optimizes operations with reports on business performance, email, the and" +
+      " SMS notifications, a tracking system, and a chatbot for support. Users can filter and the" +
+      " search menu items and the system facilitates online payments",
+    tags: ["MERN Stack"],
+    imageUrl: RestoImage,
+  },
+  {
+    title: "AI Summarizer App",
+    description:
+      "I developed a paragraph summarizer app that leverages the GPT-4 API to generate concise summaries of user-provided text. " +
+      "This application demonstrates my ability to integrate advanced AI capabilities into a user-friendly interface, " +
+      "providing a valuable tool for quickly distilling large amounts of information into manageable summaries.",
+    tags: ["React", "Vite", "AI", "Rapid API", "Open AI GPT-4"],
+    imageUrl: AISummarizerImage,
   },
 ] as const;
 
