@@ -1,6 +1,7 @@
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import ProfileImage from "../../public/profile.jpeg";
 import React from "react";
 
 export const links = [
@@ -83,3 +84,8 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+export const profileImage = {
+  imageUrl: ProfileImage,
+  altText: "profile_picture",
+};
