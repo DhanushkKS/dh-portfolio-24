@@ -14,19 +14,28 @@ export const About = () => {
       >
         <SectionHeading>About Me </SectionHeading>
         <p className="mb-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi
-          cupiditate exercitationem facere minus! Adipisci, alias consequuntur
-          dolores dolorum est eveniet fugiat modi nihil porro quae, quas sed
-          sunt ullam? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Amet animi cupiditate exercitationem facere minus! Adipisci, alias
-          consequuntur dolores dolorum est eveniet fugiat modi nihil porro quae,
-          quas sed sunt ullam?
+          Hello! I'm Shyaman Dhanushka, a computer science graduate from the
+          University of Ruhuna, now equipped with a solid foundation in
+          programming languages such as ASP.NET, Java, JavaScript, C#, React,
+          Angular, PostgreSQL, SQL, Version Controlling, Spring Boot, and the
+          MERN stack. Proficient in PHP, MySQL, HTML, and CSS, I've effectively
+          developed and deployed a myriad of web applications. Over the course
+          of 3+ years, I've garnered invaluable experience in web development,
+          tackling diverse projects and refining my skills in crafting
+          efficient, user-centric interfaces.
         </p>
         <p className="mb-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-          aspernatur culpa dolorum eos excepturi modi molestias nesciunt non
-          tenetur. Alias amet commodi, ipsa iste minima nobis nulla odit quod
-          suscipit?
+          Beyond conventional web development, my curiosity extends to the
+          realms of AI and machine learning, where I'm eager to explore how
+          these technologies can revolutionize solutions. I aspire to
+          continually grow and excel in the dynamic landscape of technology,
+          contributing to cutting-edge projects and collaborating with
+          like-minded professionals to make a positive impact.
+        </p>
+        <p className="mb-3">
+          If you're interested in connecting, collaborating, or discussing
+          exciting opportunities, feel free to reach out to me. Let's embark on
+          a journey to drive positive change through technology together!
         </p>
       </motion.section>
     </>

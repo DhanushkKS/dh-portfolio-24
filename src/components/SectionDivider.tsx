@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import css from "styled-jsx/css";
 
 export const SectionDivider = () => {
   //

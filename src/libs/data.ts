@@ -52,11 +52,9 @@ export const projectsData = [
   {
     title: "Recipe App (MERN Stack)",
     description:
-      "I developed a dynamic MERN stack web application featuring a sleek user interface powered by React and MUI. " +
-      "The application leverages Redux RTK Query for efficient data fetching from APIs, " +
-      "uses MongoDB as the database, and implements JWT for secure user authentication. " +
-      "Users can easily register or log in to their accounts, add their favorite recipes, and view them at their convenience. " +
-      "This project showcases my skills in modern web development, state management, and secure user handling.",
+      "I developed a dynamic MERN stack web app with a sleek UI using React and MUI. " +
+      "It uses Redux RTK Query for efficient API data fetching, MongoDB for the database, " +
+      "and JWT for secure authentication. Users can register, log in, add, and view favorite recipes.",
     tags: [
       "React",
       "MongoDB",
@@ -71,19 +69,17 @@ export const projectsData = [
   {
     title: "Inventory Management System (ASP.NET core 7 and Angular)",
     description:
-      " I developed an Inventory Management System utilizing Angular 17 for the frontend and" +
-      " ASP.NET Core Web API for the backend. Angular Material was employed as the UI library," +
-      " with Angular services facilitating data retrieval from the backend API. The backend was" +
-      " structured using Clean Architecture principles, incorporating CQRS, and PostgreSQL" +
-      " served as the database. Version control was managed through GitHub.",
+      " I developed an Inventory Management System using Angular 17 and ASP.NET Core Web API. " +
+      "Angular Material was the UI library, and PostgreSQL was the database. " +
+      "The backend used Clean Architecture with CQRS. GitHub managed version control.",
     tags: [
       "ASP.NET core web API",
       "Angular",
       "Postgres",
-      "CQRS",
       "Clean Architecture",
-      "DDD",
+      "CQRS",
       "Generic repository Pattern",
+      "DDD",
     ],
     imageUrl: InventoryImage,
   },

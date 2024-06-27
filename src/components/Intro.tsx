@@ -3,9 +3,8 @@ import Image from "next/image";
 import { profileImage } from "@/libs/data";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowBarRight, BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithub } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
 export const Intro = () => {
