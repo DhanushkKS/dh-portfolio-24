@@ -3,9 +3,8 @@ import Image from "next/image";
 import { profileImage } from "@/libs/data";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowBarRight, BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithub } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
 export const Intro = () => {
@@ -53,9 +52,9 @@ export const Intro = () => {
         >
           <span className="font-bold">Hello, I'm Shyaman Dhanushka.</span> I'm a
           <span className="font-bold"> full-stack developer</span> with
-          <span className="font-bold">3 years</span> of experience. I enjoy
+          <span className="font-bold"> 3 years</span> of experience. I enjoy
           building <span className="italic">sites & apps</span>. My focus is
-          <span className="underline">.NET and React </span>.
+          <span className="underline"> .NET and React </span>.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
