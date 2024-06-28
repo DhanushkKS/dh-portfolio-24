@@ -22,28 +22,25 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer - Intern",
+    location: "ITX360 Pvt.Ltd, Colombo 03, Sri Lanka.",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Software Engineer - Intern for 6 months at ITX360, " +
+      "where I contributed to both frontend and backend development. " +
+      "This hands-on experience allowed me to apply my academic knowledge to real-world projects, " +
+      "further enhancing my skills in software engineering.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023-2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduated Bachelor of Computer Science (BCS)",
+    location: "University of Ruhuna, Sri Lanka.",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I hold a Bachelor's degree in Computer Science from the University of Ruhuna, Sri Lanka. " +
+      "During my studies, I gained a strong foundation in computer science principles and practical experience in software development, " +
+      "which has been instrumental in shaping my career as a full-stack developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020-2024",
   },
 ] as const;
 
@@ -104,25 +101,34 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Asp.NET Core(C#)",
+  "C#",
+  "React",
+  "Java",
+  "JavaScript",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "Tailwind CSS",
+  "React MUI",
+  "Spring Boot",
+  "Angular",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "TypeScript",
   "GraphQL",
+  "PostgreSQL",
+  "MongoDB",
+  "MySQL",
+  "Next.js",
+  "Git",
+  "PHP",
+  "Azure",
+  "GitHub Actions",
+  "Redux",
   "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "FireBase",
+  "WordPress",
 ] as const;
 
 export const profileImage = {
