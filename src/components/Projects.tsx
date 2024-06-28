@@ -9,7 +9,7 @@ export const Projects = () => {
 
   return (
     <>
-      <section ref={ref} id="projects" className="scroll-mt-40">
+      <section ref={ref} id="projects" className="scroll-mt-40 mb-28">
         <SectionHeading>Projects</SectionHeading>
         <div>
           {projectsData.map((project, index) => (
