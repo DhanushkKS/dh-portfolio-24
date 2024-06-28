@@ -135,3 +135,7 @@ export const profileImage = {
   imageUrl: ProfileImage,
   altText: "profile_picture",
 };
+export const metaDescription: string =
+  "Shyaman Dhanushka, a computer science graduate from the University of Ruhuna, Sri Lanka, is proficient in ASP.NET, React, C#, Java, JavaScript, Angular, PostgreSQL, SQL, Version Controlling, Spring Boot, and the MERN stack. " +
+  "With over 3 years of experience in web development, he has developed and deployed numerous web applications. " +
+  "Shyaman is also exploring AI and machine learning, aiming to contribute to innovative solutions and collaborate on impactful projects.";
