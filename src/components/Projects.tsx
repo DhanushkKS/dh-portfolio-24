@@ -1,11 +1,15 @@
+"use client";
 import { SectionHeading } from "@/components/SectionHeading";
 import { projectsData } from "@/libs/data";
 import { Project } from "@/components/Project";
+import { useSectionInView } from "@/hooks/useSectionInView";
 
 export const Projects = () => {
+  const { ref } = useSectionInView("Projects", 0.2);
+
   return (
     <>
-      <section id="projects">
+      <section ref={ref} id="projects" className="scroll-mt-40">
         <SectionHeading>Projects</SectionHeading>
         <div>
           {projectsData.map((project, index) => (
