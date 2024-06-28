@@ -4,12 +4,13 @@ import "./globals.css";
 import React from "react";
 import { Header } from "@/components/Header";
 import { ActiveSectionContextProvider } from "@/context/ActiveSectionContext";
+import { metaDescription } from "@/libs/data";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shyaman Dhanushka | Personal Portfolio",
-  description: "Shyaman Dhanushka is a Associate software engineer.",
+  description: metaDescription,
 };
 
 export default function RootLayout({
