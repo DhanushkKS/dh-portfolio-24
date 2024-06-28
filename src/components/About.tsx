@@ -1,12 +1,15 @@
 "use client";
 import { SectionHeading } from "@/components/SectionHeading";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/hooks/useSectionInView";
 
 export const About = () => {
+  const { ref } = useSectionInView("About", 0.2);
   return (
     <>
       <motion.section
-        className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+        ref={ref}
+        className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-40"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
@@ -15,8 +18,8 @@ export const About = () => {
         <SectionHeading>About Me </SectionHeading>
         <p className="mb-3">
           Hello! I'm Shyaman Dhanushka, a computer science graduate from the
-          University of Ruhuna, now equipped with a solid foundation in
-          programming languages such as ASP.NET, Java, JavaScript, C#, React,
+          University of Ruhuna,Sri Lanka. Now equipped with a solid foundation
+          in programming languages such as ASP.NET, React, C#, Java, JavaScript,
           Angular, PostgreSQL, SQL, Version Controlling, Spring Boot, and the
           MERN stack. Proficient in PHP, MySQL, HTML, and CSS, I've effectively
           developed and deployed a myriad of web applications. Over the course
