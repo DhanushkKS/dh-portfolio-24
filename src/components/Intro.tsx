@@ -7,8 +7,10 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/hooks/useSectionInView";
+import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 
 export const Intro = () => {
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { ref } = useSectionInView("Home", 0.2);
 
   return (
@@ -74,6 +76,10 @@ export const Intro = () => {
             className="group bg-gray-900 text-white px-7 py-3 flex
             items-center rounded-full gap-2 outline-none focus:scale-110
             hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+            onClick={() => {
+              setActiveSection("Contact");
+              setTimeOfLastClick(Date.now());
+            }}
           >
             Contact me here
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
