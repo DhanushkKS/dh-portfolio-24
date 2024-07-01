@@ -89,7 +89,7 @@ export const Intro = () => {
             href="/cv_shyamanDhanushka_0506.pdf"
             download
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110
-            hover:scale-110  active:scale-105 transition cursor-pointer border border-black/10"
+            hover:scale-110  active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
           >
             Download CV
             <HiDownload className="opacity-70 group-hover:translate-y-1" />
@@ -99,7 +99,7 @@ export const Intro = () => {
             href="https://www.linkedin.com/in/shyaman-dhanushka"
             target="_blank"
             className="bg-white p-4 flex items-center gap-2 text-gray-700 rounded-full  focus:scale-[1.15]
-            hover:scale-[1.15]  active:scale-105 transition cursor-pointer border border-black/10"
+            hover:scale-[1.15]  active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
           >
             <BsLinkedin />
           </a>
@@ -108,7 +108,7 @@ export const Intro = () => {
             href="https://github.com/DhanushkKS"
             target="_blank"
             className="bg-white p-4 flex items-center gap-2 text-gray-700 rounded-full  focus:scale-[1.15]
-            hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+            hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 "
           >
             <FaGithubSquare />
           </a>
