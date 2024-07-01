@@ -22,7 +22,7 @@ export const Contact = () => {
         viewport={{ once: true }}
       >
         <SectionHeading>Contact Me</SectionHeading>
-        <p className="text-gray-700 -mt-5">
+        <p className="text-gray-700 -mt-5 dark:text-white/80">
           Please contact me directly at{" "}
           <a className="underline" href="mailto:ksdhanushka777@gmail.com">
             ksdhanushka777@gmail.com
@@ -38,7 +38,7 @@ export const Contact = () => {
             }
             toast.success("Email sent Successfully!");
           }}
-          className="mt-10 flex flex-col"
+          className="mt-10 flex flex-col dark:text-black"
         >
           <input
             type="email"
@@ -46,14 +46,14 @@ export const Contact = () => {
             required
             maxLength={500}
             placeholder="Your Email"
-            className="h-14 px-4 rounded-lg border border-black/10"
+            className="h-14 px-4 rounded-lg border border-black/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           />
           <textarea
             required
             name="message"
             maxLength={1000}
             placeholder="Your Message"
-            className="h-52 my-3 rounded-lg border border-black/10 p-4"
+            className="h-52 my-3 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           />
           <SubmitButton />
         </form>
