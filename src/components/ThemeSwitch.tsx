@@ -1,6 +1,5 @@
 "use client";
 import { BsMoon, BsSun } from "react-icons/bs";
-import { useEffect, useState } from "react";
 import { useTheme } from "@/context/ThemeContext";
 
 type Theme = "light" | "dark";

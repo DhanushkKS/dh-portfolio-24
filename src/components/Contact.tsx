@@ -2,11 +2,10 @@
 import { SectionHeading } from "@/components/SectionHeading";
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { motion } from "framer-motion";
-import { FaPaperPlane } from "react-icons/fa6";
 import { sendEmail } from "@/actions/sendEmail";
-import { useFormStatus } from "react-dom";
 import { SubmitButton } from "@/components/SubmitButton";
 import toast from "react-hot-toast";
+
 export const Contact = () => {
   const { ref } = useSectionInView("Contact");
 
