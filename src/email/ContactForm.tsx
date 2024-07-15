@@ -1,14 +1,14 @@
 import {
-  Html,
-  Head,
-  Preview,
-  Tailwind,
   Body,
-  Section,
-  Heading,
-  Text,
-  Hr,
   Container,
+  Head,
+  Heading,
+  Hr,
+  Html,
+  Preview,
+  Section,
+  Tailwind,
+  Text,
 } from "@react-email/components";
 
 type ContactFormProps = {
@@ -33,6 +33,7 @@ export const ContactForm = ({ message, senderEmail }: ContactFormProps) => {
                 </Heading>
                 <Text>{message}</Text>
                 <Hr />
+                <Text>The sender's Email is {senderEmail}</Text>
                 <Text>The sender's Email is {senderEmail}</Text>
               </Section>
             </Container>
