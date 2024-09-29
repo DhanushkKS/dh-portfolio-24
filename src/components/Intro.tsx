@@ -8,11 +8,10 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { useActiveSectionContext } from "@/context/ActiveSectionContext";
-
 export const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { ref } = useSectionInView("Home", 0.2);
-
+  const cvUrl = "/cv_shyamanDhanushka_0929.pdf";
   return (
     <>
       <section
@@ -93,7 +92,7 @@ export const Intro = () => {
           </Link>
 
           <a
-            href="/cv_shyamanDhanushka_0506.pdf"
+            href={cvUrl}
             download
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110
             hover:scale-110  active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
