@@ -21,6 +21,19 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
+    title: "Associate Software Engineer",
+    location: "Maxfinity Pvt. Ltd.",
+    description:
+      "As an Associate Software Engineer at Maxfinity Pvt. Ltd, " +
+      "I contributed to developing Maxi, an ad posting web app. " +
+      "I gained hands-on experience with React, Tailwind CSS, ASP.NET Core," +
+      "EF Core, Dapper, Redux Toolkit, and .NET Identity." +
+      "This role enhanced my skills in full-stack development, " +
+      "version control with Git, and Agile practices.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
     title: "Software Engineer - Intern",
     location: "ITX360 Pvt.Ltd, Colombo 03, Sri Lanka.",
     description:
@@ -100,14 +113,14 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  { name: "React", level: 95 },
   { name: "Asp.NET Core(C#)", level: 95 },
   { name: "C#", level: 95 },
-  { name: "React", level: 95 },
   { name: "Java", level: 95 },
+  { name: "Tailwind CSS", level: 85 },
   { name: "JavaScript", level: 90 },
   { name: "HTML", level: 100 },
   { name: "CSS", level: 90 },
-  { name: "Tailwind CSS", level: 85 },
   { name: "React MUI", level: 90 },
   { name: "Spring Boot", level: 70 },
   { name: "Angular", level: 70 },
