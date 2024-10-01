@@ -11,7 +11,7 @@ import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 export const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { ref } = useSectionInView("Home", 0.2);
-  const cvUrl = "/cv_shyamanDhanushka_0929.pdf";
+  const cvUrl = "/cv_shyamanDhanushka_1001.pdf";
   return (
     <>
       <section
