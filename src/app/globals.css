@@ -1,11 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
-html{
+@import "tailwindcss";
 
-    --line-color:#e5e7eb;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    /*--variant-dark: (selector: .dark);*/
+    --color-line: #e5e7eb;
+    --color-line-dark: rgba(255, 255, 255, 0.2);
+
+    /* Custom gradient definitions */
+    --gradient-radial: radial-gradient(var(--tw-gradient-stops));
+    --gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
 }
-html.dark {
-    --line-color: rgba(255, 255, 255, 0.2);
+
+/* Dark mode variables */
+:root.dark {
+    --color-line: var(--color-line-dark);
 }

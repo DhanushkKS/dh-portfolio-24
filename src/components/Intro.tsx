@@ -11,7 +11,7 @@ import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 export const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { ref } = useSectionInView("Home", 0.2);
-  const cvUrl = "/cv_shyamanDhanushka_1001.pdf";
+  const cvUrl = "/cv_shyaman_dhanushka_1230.pdf";
   return (
     <>
       <section
@@ -54,21 +54,22 @@ export const Intro = () => {
         </div>
 
         <motion.p
-          className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+          className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-center"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Hello, I'm Shyaman Dhanushka.</span> I'm a
-          <span className="font-bold"> full-stack developer</span> with
-          <span className="font-bold"> 3 years</span> of experience. I
-          specialize in creating{" "}
-          <span className="italic">innovative and efficient solutions </span>
-          with a focus on <span className="underline">.NET and React</span>. My
-          goal is to{" "}
-          <span className="font-bold">
-            transform ideas into impactful web applications
-          </span>
-          .
+          <span className="font-bold">Hello, I'm Shyaman Dhanushka.</span> I'm a{" "}
+          <span className="font-bold">Full-Stack Engineer</span> with over{" "}
+          <span className="font-bold">3 years</span> of experience in building
+          scalable web architectures. Currently, I specialize in crafting
+          high-performance applications with{" "}
+          <span className="font-bold ">Next.js, React, and Node.js</span>. My
+          expertise lies in{" "}
+          <span className="underline decoration-blue-500">
+            optimizing complex states
+          </span>{" "}
+          and architecting <span className="font-bold">SaaS solutions</span>{" "}
+          that drive real business impact.
         </motion.p>
 
         <motion.div
