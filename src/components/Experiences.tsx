@@ -46,7 +46,7 @@ export const Experiences = () => {
               >
                 <h3 className="font-semibold capitalize">{experience.title}</h3>
                 <p className="font-normal !mt-0">{experience.location}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 whitespace-pre-line">
                   {experience.description}
                 </p>
               </VerticalTimelineElement>
