@@ -21,6 +21,26 @@ export const links = [
 ] as const;
 export const experiencesData = [
   {
+    title: "Full Stack Engineer",
+    location: "Meridian Creative Solutions",
+    description:
+      "Lead Frontend Architect for Explor.app: Driving the frontend strategy for a multi-tenant travel management SaaS, focusing on role-based access control (RBAC) and high-scale itinerary management.\n" +
+      "\n" +
+      " " +
+      "High-Performance Itinerary Engine: Engineered a complex, nested drag-and-drop builder using dnd-kit. Optimized UI performance using functional referential equality in React to handle massive state updates, resulting in a 60% faster creation workflow.\n" +
+      "\n" +
+      "Scalable State Architecture: Implemented Redux Toolkit & RTK Query to manage global state and server caching, slashing redundant network requests by 40% and ensuring real-time UI synchronization.\n" +
+      "\n" +
+      "Geospatial Integration: Leveraged Google Maps API for dynamic routing and location clustering, providing travelers with interactive, day-wise spatial visualizations of their trips.\n" +
+      "\n" +
+      "Enterprise-Grade Forms: Architected data-intensive forms with Formik & Yup, ensuring robust validation logic and seamless UX for complex data entry tasks.\n" +
+      "\n" +
+      "Tech Stack: Next.js (App Router), React 19, Tailwind v4, Material UI, Redux Toolkit, Framer Motion.",
+
+    icon: React.createElement(CgWorkAlt),
+    date: "2025",
+  },
+  {
     title: "Associate Software Engineer",
     location: "Maxfinity Pvt. Ltd.",
     description:
@@ -31,7 +51,7 @@ export const experiencesData = [
       "This role enhanced my skills in full-stack development, " +
       "version control with Git, and Agile practices.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "2024-2025",
   },
   {
     title: "Software Engineer - Intern",
@@ -114,6 +134,7 @@ export const projectsData = [
 
 export const skillsData = [
   { name: "React", level: 95 },
+  { name: "Next.js", level: 80 },
   { name: "Asp.NET Core(C#)", level: 95 },
   { name: "C#", level: 95 },
   { name: "Java", level: 95 },
