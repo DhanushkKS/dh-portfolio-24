@@ -169,6 +169,6 @@ export const profileImage = {
   altText: "profile_picture",
 };
 export const metaDescription: string =
-  "Shyaman Dhanushka, a computer science graduate from the University of Ruhuna, Sri Lanka, is proficient in ASP.NET, React, C#, Java, JavaScript, Angular, PostgreSQL, SQL, Version Controlling, Spring Boot, and the MERN stack. " +
-  "With over 3 years of experience in web development, he has developed and deployed numerous web applications. " +
-  "Shyaman is also exploring AI and machine learning, aiming to contribute to innovative solutions and collaborate on impactful projects.";
+  "Shyaman Dhanushka is a Full Stack Engineer specializing in Next.js, TypeScript, and the React ecosystem. " +
+  "With 4+ years of experience in architecting scalable web applications, he focuses on frontend performance optimization and modern UI/UX. " +
+  "Currently leveraging the Vercel AI SDK to build innovative SaaS solutions, Shyaman combines technical expertise with a leadership mindset to deliver impactful digital products.";
