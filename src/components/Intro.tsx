@@ -11,7 +11,7 @@ import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 export const Intro = () => {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const { ref } = useSectionInView("Home", 0.2);
-  const cvUrl = "/cv_shyaman_dhanushka_1230.pdf";
+  const cvUrl = "/cv_shyaman_dhanushka_0618.pdf";
   return (
     <>
       <section
@@ -33,7 +33,8 @@ export const Intro = () => {
                 height="192"
                 priority
                 quality="60"
-                className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-r-white shadow-xl"
+                // className="h-24 w-24 rounded-full object-top border-[0.35rem] border-r-white shadow-xl"
+                className="h-24 w-24 rounded-full object-cover object-[center_20%] border-[0.35rem] border-white shadow-xl"
               />
             </motion.div>
 
@@ -48,7 +49,7 @@ export const Intro = () => {
               }}
               className=" absolute bottom-0 right-0 text-4xl"
             >
-              🌵
+              👾
             </motion.span>
           </div>
         </div>

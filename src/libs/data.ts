@@ -4,12 +4,15 @@ import React from "react";
 
 //Images
 import ProfileImage from "../../public/profile.jpeg";
+import ProfileImageUpdated from "../../public/profile-updated.png";
 
 //Project Images
 import RecipeImage from "../../public/projects-images/recipe-app.jpeg";
 import InventoryImage from "../../public/projects-images/inventor-management-system-api.jpeg";
 import RestoImage from "../../public/projects-images/resto.png";
 import AISummarizerImage from "../../public/projects-images/dh-ai-summarizer.jpeg";
+import AlphaFormatImage from "../../public/projects-images/alpha-format.png";
+import AlphaRiseImage from "../../public/projects-images/alpha-rise.jpg";
 
 export const links = [
   { name: "Home" },
@@ -79,11 +82,44 @@ export const experiencesData = [
 export const projectsData = [
   //Add latest projects here…
   {
+    title: "AlphaRise - Men's Self-Improvement Platform",
+    description:
+      "Architected and developed a comprehensive self-improvement and discipline tracking platform for men. Built with high-performance execution patterns, featuring full state synchronization for workout tracking, caloric tracking, and structured milestone logs.",
+    year: "2026",
+    liveUrl: "https://alpha-rise.vercel.app",
+    tags: [
+      "Next.js (App Router)",
+      "React 19",
+      "TypeScript",
+      "Supabase",
+      "Tailwind v4",
+      "Zustand",
+    ],
+    imageUrl: AlphaRiseImage,
+  },
+  {
+    title: "AlphaFormat - LinkedIn Text Utility",
+    description:
+      "Engineered a high-utility text formatting web application explicitly built for LinkedIn creators. The application dynamically converts standard input into compliant Unicode characters for bold, italic, and monospace styling, entirely client-side.",
+    year: "2026",
+    liveUrl: "https://alpha-format.vercel.app",
+    tags: [
+      "Next.js",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel Deployment",
+    ],
+    imageUrl: AlphaFormatImage,
+  },
+  {
     title: "Recipe App (MERN Stack)",
     description:
       "I developed a dynamic MERN stack web app with a sleek UI using React and MUI. " +
       "It uses Redux RTK Query for efficient API data fetching, MongoDB for the database, " +
       "and JWT for secure authentication. Users can register, log in, add, and view favorite recipes.",
+    year: "2024",
+
     tags: [
       "React",
       "MongoDB",
@@ -101,6 +137,8 @@ export const projectsData = [
       " I developed an Inventory Management System using Angular 17 and ASP.NET Core Web API. " +
       "Angular Material was the UI library, and PostgreSQL was the database. " +
       "The backend used Clean Architecture with CQRS. GitHub managed version control.",
+    year: "2024",
+
     tags: [
       "ASP.NET core web API",
       "Angular",
@@ -114,6 +152,8 @@ export const projectsData = [
   },
   {
     title: "Resto (Restaurant Management System - MERN Stack)",
+    year: "2024",
+
     description:
       "The system optimizes operations with reports on business performance, email, the and" +
       " SMS notifications, a tracking system, and a chatbot for support. Users can filter and the" +
@@ -127,6 +167,8 @@ export const projectsData = [
       "I developed a paragraph summarizer app that leverages the GPT-4 API to generate concise summaries of user-provided text. " +
       "This application demonstrates my ability to integrate advanced AI capabilities into a user-friendly interface, " +
       "providing a valuable tool for quickly distilling large amounts of information into manageable summaries.",
+    year: "2024",
+
     tags: ["React", "Vite", "AI", "Rapid API", "Open AI GPT-4"],
     imageUrl: AISummarizerImage,
   },
@@ -165,7 +207,7 @@ export const skillsData = [
 ] as const;
 
 export const profileImage = {
-  imageUrl: ProfileImage,
+  imageUrl: ProfileImageUpdated,
   altText: "profile_picture",
 };
 export const metaDescription: string =
